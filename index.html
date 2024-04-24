@@ -5,7 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formularios Urbano</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1>Contacto</h1>
+    </header>
 
+    <main>
+      <div class="contenedor">
+        <div class="texto-izquierda">
+          <h1>Información de Contacto</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit
+            amet ligula ac arcu tincidunt lacinia.
+          </p>
+        </div>
+
+        <section class="formulario">
+          <h2>Formulario de Contacto</h2>
+          <form>
+            <div class="input-group">
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre" name="nombre" required />
+            </div>
+            <div class="input-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="input-group">
+              <label for="mensaje">Mensaje:</label>
+              <textarea
+                id="mensaje"
+                name="mensaje"
+                rows="6"
+                required
+              ></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+          </form>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <p>© 2024 Tu Empresa. Todos los derechos reservados.</p>
+    </footer>
+  </body>
   <script type="module" src="/main.js"></script>
 </html>
