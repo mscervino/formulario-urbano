@@ -40,7 +40,7 @@ main {
   background-color: #f8f9fa;
   border-radius: 8px;
   padding: 40px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 9px 9px 10px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
@@ -87,7 +87,11 @@ footer {
   color: white;
   text-align: center;
   padding: 10px 0;
-  position: fixed;
+
   bottom: 0;
   width: 100%;
+}
+
+h2 {
+  margin-top: 20px;
 }
