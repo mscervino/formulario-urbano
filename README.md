@@ -4,9 +4,9 @@
 
 # Texto HTML Validado en validator.w3: "Document checking comleted. No errors or warnings to show"
 
-# Repositorio GitHub:
+# Repositorio GitHub: https://github.com/mscervino/formulario-urbano
 
-# netlify:
+# netlify: https://peaceful-sorbet-76d209.netlify.app/
 
 # Drive:
 
