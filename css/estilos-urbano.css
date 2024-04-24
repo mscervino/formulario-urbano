@@ -14,8 +14,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: calc(100vh - 130px); /* Restar altura del header y footer */
-}
+  min-height: calc(100vh - 130px); 
 
 .contenedor {
   display: flex;
